@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     {
         
     }
-
     public float horizontalInput;
     public float xRange = 20.0f;
     public float speed = 10.0f;
@@ -37,4 +36,5 @@ public class PlayerController : MonoBehaviour
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
+
 }
