@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DetectCollisions : MonoBehaviour
 {
@@ -21,12 +22,13 @@ public class DetectCollisions : MonoBehaviour
     {
         Destroy(gameObject);
         a++;
-        if (a == 4)
-        {
+        //if (a == 4)
+        //{
             Destroy(other.gameObject);
+            SceneManager.LoadScene("New Scene");
             Debug.Log("Game Over!");
+        //}
 
 
-        }
     }
 }
