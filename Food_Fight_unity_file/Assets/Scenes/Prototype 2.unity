@@ -753,6 +753,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 221037414253424759, guid: 4cb17e82a47a35f468461b1b8080e2a8,
         type: 3}
+    - target: {fileID: 1407366636, guid: 814f4326a50812947b2469896d89a215, type: 3}
+      propertyPath: xRange
+      value: 20.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407366636, guid: 814f4326a50812947b2469896d89a215, type: 3}
+      propertyPath: horizontalInput
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407366636, guid: 814f4326a50812947b2469896d89a215, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814f4326a50812947b2469896d89a215, type: 3}
 --- !u!1001 &221037414513537140
@@ -824,28 +836,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cb17e82a47a35f468461b1b8080e2a8, type: 3}
---- !u!1 &221037414513537141 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 221037414253424759, guid: 4cb17e82a47a35f468461b1b8080e2a8,
-    type: 3}
-  m_PrefabInstance: {fileID: 221037414513537140}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &221037414513537142
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 221037414513537141}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &3271782106142030773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -922,6 +912,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3894594639768563310, guid: 1ec78628eaba5cd4d86b3a9497c15eb0,
+        type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3894594640476164292, guid: 1ec78628eaba5cd4d86b3a9497c15eb0,
         type: 3}
       propertyPath: m_Name
@@ -991,6 +986,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9070165278923499926, guid: 2c76cc2b163237047b4c76c5c19f3df3,
+        type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9070165278926708798, guid: 2c76cc2b163237047b4c76c5c19f3df3,
         type: 3}
       propertyPath: m_LocalPosition.x

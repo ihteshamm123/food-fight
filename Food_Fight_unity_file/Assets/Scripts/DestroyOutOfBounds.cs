@@ -10,7 +10,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         
     }
     private float topBound = 50;
-    private float lowerBound = -30;
+    private float lowerBound = -20;
     // Update is called once per frame
     void Update()
     {
@@ -20,6 +20,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         }
         else if (transform.position.z < lowerBound)
         {
+            Debug.Log("Game Over!");
             Destroy(gameObject);
         }
     }
