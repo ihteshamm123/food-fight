@@ -9,4 +9,9 @@ public class GameOver : MonoBehaviour
         Debug.Log("Game Over!");
         Application.Quit(); 
     }
+    public void Restart()
+    {
+        Debug.Log("Restart!");
+        Application.LoadLevel("Prototype 2");
+    }
 }
